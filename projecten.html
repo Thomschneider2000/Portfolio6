@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="l-sidebar">
+            <a href="index.html">Thom Schneider</a>
+            <a href="leeswijzer.html">Reading Guide</a>
+            <a href="projecten.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div class="col-md-9 col-md-offset-3 content">
+          <div class="l-filter">
+            <div id="leeswijzer_nav">
+              <button  type="button" class="btn active" onclick="filterSelection('all')">All</button>
+              <button type="button" class="btn" onclick="filterSelection('induvidual')">Induvidual</button>
+              <button type="button" class="btn" onclick="filterSelection('group')">Group</button>
+              <button type="button" class="btn" onclick="filterSelection('international')">International</button>
+            </div>
+          </div>
+          <div class="l-projectcon l-filterdiv group">
+            <a href="assets/pdf/Projectplan - PSV.pdf" target="_blank">
+              <div class="row">
+                <div class="col-9">
+                  <h4>Group Project</h4>
+                  <h1><strong>Projectplan PSV</strong></h1>
+                  <h3>Fundementals of the psv project.</h3>
+                </div>
+                <div class="l-thumbpos col-3">
+                  <img
+                    src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="l-projectcon l-filterdiv induvidual">
+            <a href="">
+              <div class="row">
+                <div class="col-9">
+                  <h4>Induvidual Project</h4>
+                  <h1><strong>Projectplan website</strong></h1>
+                  <h3>Fundementals for building new portfolio.</h3>
+                </div>
+                <div class="l-thumbpos col-3">
+                  <img
+                    src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="l-projectcon l-filterdiv group">
+            <a href="">
+              <div class="row">
+                <div class="col-9">
+                  <h4>Group Project</h4>
+                  <h1><strong>Research Innovativity</strong></h1>
+                  <h3>Research for innovative product.</h3>
+                </div>
+                <div class="l-thumbpos col-3">
+                  <img
+                    src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="l-projectcon l-filterdiv international">
+            <a href="">
+              <div class="row">
+                <div class="col-9">
+                  <h4>International Project</h4>
+                  <h1><strong>Research tags</strong></h1>
+                  <h3>Research on different tags.</h3>
+                </div>
+                <div class="l-thumbpos col-3">
+                  <img
+                    src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/filter.js"></script>
+    <script src="js/Leeswijzer_nav.js"></script>
+  </body>
+</html>
