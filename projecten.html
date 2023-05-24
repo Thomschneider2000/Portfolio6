@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porfolio</title>
+    <link rel="icon" href="/assets/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -30,7 +31,7 @@
           <div class="l-filter">
             <div id="leeswijzer_nav">
               <button  type="button" class="btn active" onclick="filterSelection('all')">All</button>
-              <button type="button" class="btn" onclick="filterSelection('induvidual')">Induvidual</button>
+              <button type="button" class="btn" onclick="filterSelection('individual')">Individual</button>
               <button type="button" class="btn" onclick="filterSelection('group')">Group</button>
               <button type="button" class="btn" onclick="filterSelection('international')">International</button>
             </div>
@@ -38,47 +39,50 @@
           <div class="l-projectcon l-filterdiv group">
             <a href="assets/pdf/Projectplan - PSV.pdf" target="_blank">
               <div class="row">
-                <div class="col-9">
+                <div class="col-8">
                   <h4>Group Project</h4>
                   <h1><strong>Projectplan PSV</strong></h1>
                   <h3>Fundementals of the psv project.</h3>
                 </div>
-                <div class="l-thumbpos col-3">
-                  <img
+                <div class="col-4">
+                  <div class="l-img_container"><img
                     src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
                   />
+                </div>  
                 </div>
               </div>
             </a>
           </div>
-          <div class="l-projectcon l-filterdiv induvidual">
-            <a href="">
+          <div class="l-projectcon l-filterdiv individual">
+            <a href="?">
               <div class="row">
-                <div class="col-9">
-                  <h4>Induvidual Project</h4>
-                  <h1><strong>Projectplan website</strong></h1>
+                <div class="col-8">
+                  <h4>Individual Project</h4>
+                  <h1><strong>Projectplan Portfolio</strong></h1>
                   <h3>Fundementals for building new portfolio.</h3>
                 </div>
-                <div class="l-thumbpos col-3">
-                  <img
+                <div class="col-4">
+                  <div class="l-img_container"><img
                     src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
                   />
+                </div>  
                 </div>
               </div>
             </a>
           </div>
           <div class="l-projectcon l-filterdiv group">
-            <a href="">
+            <a href="?">
               <div class="row">
-                <div class="col-9">
+                <div class="col-8">
                   <h4>Group Project</h4>
                   <h1><strong>Research Innovativity</strong></h1>
                   <h3>Research for innovative product.</h3>
                 </div>
-                <div class="l-thumbpos col-3">
-                  <img
+                <div class="col-4">
+                  <div class="l-img_container"><img
                     src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
                   />
+                </div>  
                 </div>
               </div>
             </a>
@@ -86,15 +90,16 @@
           <div class="l-projectcon l-filterdiv international">
             <a href="">
               <div class="row">
-                <div class="col-9">
+                <div class="col-8">
                   <h4>International Project</h4>
                   <h1><strong>Research tags</strong></h1>
                   <h3>Research on different tags.</h3>
                 </div>
-                <div class="l-thumbpos col-3">
-                  <img
+                <div class="col-4">
+                  <div class="l-img_container"><img
                     src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png"
                   />
+                </div>  
                 </div>
               </div>
             </a>
@@ -104,5 +109,6 @@
     </div>
     <script src="js/filter.js"></script>
     <script src="js/Leeswijzer_nav.js"></script>
+    <script src="js/animation.js"></script>
   </body>
 </html>
