@@ -1,6 +1,30 @@
 @import url("https://fonts.cdnfonts.com/css/montserrat");
 @import url("https://fonts.cdnfonts.com/css/threat");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+.library {
+  color: #a8ce3b !important;
+}
+
+.lab {
+  color: #797dbc !important;
+}
+
+.field {
+  color: #52c3c4 !important;
+}
+
+.showroom {
+  color: #ffd11d !important;
+}
+
+.workshop {
+  color: #25bfed !important;
+}
+
+.stepping_stones {
+  color: #ef4e8c !important;
+}
+
 h1,
 h2 {
   color: #ffffff !important;
@@ -191,4 +215,20 @@ img {
 
 .l-projectcon:hover img {
   transform: scale(1.2);
+}
+
+.c-sub_header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #ffffff;
+}
+
+.l-cmd_methods {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+.l-cmd_methods img {
+  width: 5%;
+  height: auto;
+  margin-right: 1rem;
 }/*# sourceMappingURL=styles.css.map */

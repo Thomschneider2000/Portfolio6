@@ -4,8 +4,40 @@
 @import url('https://fonts.cdnfonts.com/css/threat');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
+//colors
+
 $pcolor: #2a2a2a;
 $scolor: #ffffff;
+$library: #a8ce3b;
+$lab: #797dbc;
+$field: #52c3c4;
+$showroom: #ffd11d;
+$workshop: #25bfed;
+$stepping_stones: #ef4e8c;
+
+.library {
+    color: $library !important;
+}
+
+.lab {
+    color: $lab !important;
+}
+
+.field {
+    color: $field !important;
+}
+
+.showroom {
+    color: $showroom !important;
+}
+
+.workshop {
+    color: $workshop !important;
+}
+
+.stepping_stones {
+    color: $stepping_stones !important;
+}
 
 // fonts
 
@@ -220,4 +252,20 @@ img {
 
 .l-projectcon:hover img {
     transform: scale(1.2);
+}
+
+.c-sub_header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid $scolor;
+}
+
+.l-cmd_methods {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    img {
+        width: 5%;
+        height: auto;
+        margin-right: 1rem;
+    }
 }
