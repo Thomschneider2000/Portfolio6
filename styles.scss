@@ -6,8 +6,8 @@
 
 //colors
 
-$pcolor: #2a2a2a;
-$scolor: #ffffff;
+$pcolor: #ffffff;
+$scolor: #2a2a2a;
 $library: #a8ce3b;
 $lab: #797dbc;
 $field: #52c3c4;
@@ -15,34 +15,10 @@ $showroom: #ffd11d;
 $workshop: #25bfed;
 $stepping_stones: #ef4e8c;
 
-.library {
-    color: $library !important;
-}
-
-.lab {
-    color: $lab !important;
-}
-
-.field {
-    color: $field !important;
-}
-
-.showroom {
-    color: $showroom !important;
-}
-
-.workshop {
-    color: $workshop !important;
-}
-
-.stepping_stones {
-    color: $stepping_stones !important;
-}
 
 // fonts
 
-h1,
-h2 {
+h1 {
     color: $scolor !important;
     font-size: 4rem !important;
     font-family: "Montserrat", sans-serif !important;
@@ -50,11 +26,20 @@ h2 {
     font-weight: 400 !important;
 }
 
+h2 {
+    color: $scolor !important;
+    font-family: "Playfair Display", serif !important;
+    font-style: italic !important;
+    font-size: 2.20rem !important;
+}
+
 h3 {
     color: $scolor !important;
     font-family: "Playfair Display", serif !important;
     font-style: italic !important;
-    font-size: 2.75rem !important;
+    font-size: 2.50rem !important;
+    line-height: 0.3 !important; 
+    
 }
 
 h4 {
@@ -67,16 +52,23 @@ h4 {
     margin-bottom: 0px !important;
 }
 
+h5 {
+    color: $scolor !important;
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    letter-spacing: 0.0625rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
 p {
     color: $scolor;
-    font-family: "Playfair Display", serif !important;
+    font-family: "Montserrat", sans-serif !important;
 }
 
 a {
     text-decoration: none !important;
-    &:hover {
-        color: $scolor !important;
-    }
 }
 
 
@@ -88,24 +80,15 @@ html,
 .row {
     background-color: $pcolor;
     padding: 1rem;
-    height: 100%;
+    scroll-behavior: smooth;
+    cursor: none;
 }
 
 .l-sidebar {
     position: fixed;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 
-    a {
-        color: $scolor;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 0.80rem;
-        letter-spacing: 0.0625rem;
-        margin-bottom: 0px;
-    }
 
     a:first-child {
         padding-top: 0rem;
@@ -113,9 +96,9 @@ html,
     }
 
     a {
+        color: $scolor !important;
         display: inline-block;
         padding: 1em 0;
-        color: $scolor;
         font-family: "Montserrat", sans-serif;
         text-transform: uppercase;
         font-weight: 700;
@@ -144,14 +127,14 @@ html,
         &:after {
             right: 2.2%;
             bottom: 6px;
-            background: $scolor;
+            background: $scolor !important;
             transition: width .4s ease;
         }
 
         &:hover {
             &:before {
                 width: 97.8%;
-                background: $scolor;
+                background: $scolor !important;
                 transition: width .4s ease;
             }
 
@@ -174,17 +157,15 @@ html,
     border-radius: 0% !important;
     color: $scolor !important;
     background-color: transparent !important;
-    border: solid 1px white !important;
     margin-left: 10px;
     font-family: "Montserrat", sans-serif !important;
     text-transform: uppercase !important;
-    font-weight: 400 !important;
-    font-size: 0.75rem !important;
-    letter-spacing: 0.0625rem !important;
-    &:hover {
-        background-color: white !important;
-        color: $pcolor !important;
-    }
+    letter-spacing: 0.0625rem !important;   
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.80rem;
+    letter-spacing: 0.0625rem;
+
 }
 
 .btn:focus, .btn:active {
@@ -193,8 +174,8 @@ html,
   }
 
 .active {
-    background-color: white !important;
-    color: $pcolor !important;
+    border-bottom: solid 1px $scolor !important;
+
 }
 
 .l-projectcon {
@@ -259,13 +240,163 @@ img {
     border-bottom: 2px solid $scolor;
 }
 
-.l-cmd_methods {
+
+table {
+    width: 100%;
+    color: $scolor;
+    border: 1px solid $scolor;
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.0625rem !important;
+    margin-bottom: 0px !important;
+    th {
+        
+        padding: 1rem;
+    }
+    td {
+        border: 1px solid $scolor;
+        padding: 1rem;
+    }
+
+}
+
+.c-link {
+    color: $scolor !important;
+    border-bottom: solid 1px $scolor !important;
+}
+
+.leeswijzer {
+    a {
+        color: $scolor !important;
+        border-bottom: 1px solid $scolor;
+    }
+    h3 {
+        line-height: normal !important;
+    }
+    .row {
+        margin-top: 10rem;
+    }
+}
+
+
+.c-image-reading {
+   img {
+        margin-bottom: 5rem;
+   }
+}
+.c-cmd {
+    width: auto;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.l-cmd {
+    .row {
+        display: flex;
+        align-items: end;
+    }
+    h5 {
+        margin-right: 1rem;
+        font-weight: 400 !important;
+        font-size: 0.75rem !important;
+
+    }
+}
+
+.c-img-container {
+    border: 1px solid $scolor;
+}
+
+.js-cursor {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
     display: flex;
     align-items: center;
-    padding: 1rem 0rem 1rem 0rem;
-    img {
-        width: 5%;
-        height: auto;
-        margin-right: 1rem;
+    justify-content: center;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    margin: -20px 0 0 -20px;
+    mix-blend-mode: difference;
+  
+    transition-duration: .4s;
+    transition-property: visibility, opacity;
+    transition-timing-function: cubic-bezier(.16, 1, .3, 1);
+  
+    pointer-events: none;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%,-50%,0);
+      border-radius: 50%;
     }
+    &:before {
+      height: 8px;
+      width: 8px;
+    }
+    &:after {
+      height: 40px;
+      width: 40px;
+      border: 2px solid $pcolor;
+      transition-duration: .4s;
+      transition-property: border-color, background,transform;
+      transition-timing-function: cubic-bezier(.16, 1, .3, 1);
+    }
+    &.is-active {
+      opacity: 1;
+      visibility: visible;
+      will-change: transform;
+    }
+    &.is-focus {
+      &:after {
+        transform: translate3d(-50%,-50%,0) scale(1.50);
+        border-color: transparent;
+        background: $pcolor;
+      }
+    }
+    &.is-hidden {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  .c-arrow-link {
+    color: $scolor !important;
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    letter-spacing: 0.0625rem !important;
+    i {
+        font-size: 1rem;
+        transition: .3s ease-in-out;
+        margin-left: 1rem;
+    }
+  }
+
+  .c-arrow-link:hover i {
+    transform: translateX(10px);
+  }
+
+
+.c-thumbnail {
+    width: 100%;
+    height: 40%;
+}
+
+.c-cmd-icons {
+    width: 60%;
+    height: auto;
+}
+
+.c-spacer {
+    margin-top: 5rem;
 }
