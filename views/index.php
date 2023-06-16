@@ -84,8 +84,8 @@
           </a>
         </div>
 
-        <div class="l-projectcon l-filterdiv international">
-          <a href="researchtags_iteratie.php">
+        <div class="l-projectcon l-filterdiv group">
+          <a href="c4_iteratie.php">
             <?php include('../includes/item-top.php'); ?>
             <h4>Group</h4>
             <h1><strong>C4-model</strong></h1>
@@ -97,7 +97,7 @@
         </div>
 
         <div class="l-projectcon l-filterdiv group">
-          <a href="">
+          <a href="levelsystem_iteratie.php">
             <?php include('../includes/item-top.php'); ?>
             <h4>Group Project</h4>
             <h1><strong>Leveling System</strong></h1>
@@ -112,8 +112,45 @@
           <a href="frontend_iteratie.php">
             <?php include('../includes/item-top.php'); ?>
             <h4>Group Project</h4>
-            <h1><strong>Front end dev app</strong></h1>
+            <h1><strong>Front-end dev app</strong></h1>
             <h3>Frond-end development PSV app.</h3>
+            <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
+              src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
+            <?php include('../includes/item-bottom.php'); ?>
+          </a>
+        </div>
+
+        <div class="l-projectcon l-filterdiv group">
+          <a href="testingdoc_iteratie.php">
+            <?php include('../includes/item-top.php'); ?>
+            <h4>Group Project</h4>
+            <h1><strong>Testing PSV app</strong></h1>
+            <h3>Testing the PSV app.</h3>
+            <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
+              src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
+            <?php include('../includes/item-bottom.php'); ?>
+          </a>
+        </div>
+
+        <div class="l-projectcon l-filterdiv group">
+          <a href="advicereport_iteratie.php">
+            <?php include('../includes/item-top.php'); ?>
+            <h4>Group Project</h4>
+            <h1><strong>Advice Report</strong></h1>
+            <h3>Handover Document.</h3>
+            <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
+              src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
+            <?php include('../includes/item-bottom.php'); ?>
+          </a>
+        </div>
+
+
+        <div class="l-projectcon l-filterdiv group">
+          <a href="peerreview_iteratie.php">
+            <?php include('../includes/item-top.php'); ?>
+            <h4>Group Project</h4>
+            <h1><strong>Peer review</strong></h1>
+            <h3>Group rating.</h3>
             <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
               src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
             <?php include('../includes/item-bottom.php'); ?>
@@ -124,8 +161,8 @@
           <a href="video_iteratie.php">
             <?php include('../includes/item-top.php'); ?>
             <h4>International Project</h4>
-            <h1><strong>Logo Design & Video</strong></h1>
-            <h3>Logo iterations and video script.</h3>
+            <h1><strong>Logo Design & Poster</strong></h1>
+            <h3>Logo iterations and Poster.</h3>
             <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
               src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
             <?php include('../includes/item-bottom.php'); ?>
@@ -138,6 +175,18 @@
             <h4>Individual Project</h4>
             <h1><strong>Portfolio Iterations</strong></h1>
             <h3>Different iterations on my portfolio.</h3>
+            <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
+              src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
+            <?php include('../includes/item-bottom.php'); ?>
+          </a>
+        </div>
+
+        <div class="l-projectcon l-filterdiv individual">
+          <a href="frontendportfolio_iteratie.php">
+            <?php include('../includes/item-top.php'); ?>
+            <h4>Individual Project</h4>
+            <h1><strong>Front-end portfolio</strong></h1>
+            <h3>Frond-end development portfolio.</h3>
             <?php include('../includes/item-mid.php'); ?><img class="c-thumbnail"
               src="https://geletina-images.s3.amazonaws.com/portfolio/expjs-title-lg.png" />
             <?php include('../includes/item-bottom.php'); ?>

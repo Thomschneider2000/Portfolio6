@@ -19,7 +19,7 @@
                 <div class="l-cmd">
                     <div class="row">
                         <h5>Cmd Methods:</h5>
-                        <img class="c-cmd" src="../assets/logo-field.png" />
+                        <img class="c-cmd" src="../assets/logo-stepping-stones.png" />
                         <img class="c-cmd" src="../assets/logo-library.png" />
                     </div>
                 </div>
@@ -40,13 +40,9 @@
                 <div class="row">
                     <div class="col-6 px-0 pr-4">
                         <h2>Process</h2>
-                        <p>To create a comprehensive comparison chart of NFC tags, RFID tags, and Bluetooth tags, I will
-                            thoroughly research each tag type, gathering relevant information on their features,
-                            capabilities, and limitations. I will identify key criteria such as range, data transfer
-                            speed, power requirements, compatibility, and cost. By analyzing and contrasting these
-                            factors, I will create a structured chart that highlights the strengths and weaknesses of
-                            each tag type, providing stakeholders with valuable insights for informed decision-making.
-
+                        <p>I conducted a thorough research on NFC tags, RFID tags, and Bluetooth tags to create a comprehensive comparison chart. I gathered relevant information about their features, capabilities, and limitations. Key criteria, including range, data transfer speed, power requirements, compatibility, and cost, were identified and analyzed. By contrasting these factors, I created a structured chart that highlighted the strengths and weaknesses of each tag type. The chart provided stakeholders with valuable insights for informed decision-making.
+                            <br/><br/>
+                            I used the CMD methods "comparison chart" to compare RFID tags, NFC tags, and Bluetooth tags. Additionally, I conducted a literature study on this topic. These activities helped me gain insights into their functionalities and applications.
                         </p>
                     </div>
                     <div class="col-6 px-0 pl-4">

@@ -40,34 +40,25 @@
                 <div class="row">
                     <div class="col-6 px-0 pr-4">
                         <h2>Process</h2>
-                        <p>
-                            In creating my research document on how to reach the target group of PSV through
-                            gamification, I will undertake the following steps.
-
-                            Firstly, I will clearly define the objectives of my research, focusing on investigating the
-                            effectiveness of gamification in engaging the specific target group.
-
-                            Next, I will conduct an extensive literature review, thoroughly examining relevant sources
-                            and academic articles on gamification, fan engagement, and target audience analysis.
-
-                            Based on my findings, I will develop research questions and hypotheses that aim to uncover
-                            the preferences, motivations, and behaviors of the target group regarding gamified
-                            experiences.
+                        <p>In my research document about engaging PSV's target audience through gamification, I followed
+                            these steps. First, I set clear goals for my research and focused on studying how
+                            gamification can attract and involve the specific target group. Then, I read lots of
+                            information about gamification, fan engagement, and understanding the target audience. Using
+                            what I learned, I developed questions and ideas to learn about what the target group likes
+                            and how they behave when it comes to gamified experiences.
                             <br /><br />
-                            To gather data, I will employ suitable research methods such as surveys, interviews, or
-                            observations.
-
-                            Subsequently, I will analyze the collected data using appropriate qualitative or
-                            quantitative techniques.
-
-                            From the analysis, I will interpret the findings, draw meaningful conclusions, and identify
-                            key insights on effectively reaching and engaging the target group of PSV through
-                            gamification.
-
-                            Finally, I will present my research document, encompassing an introduction, methodology,
-                            findings, and recommendations, ensuring clear and concise communication of the research
-                            outcomes.
-
+                            To collect information, I used methods like surveys, interviews, or observations. I analyzed
+                            the data using different techniques. From this analysis, I found important things and made
+                            conclusions about how to effectively engage PSV's target audience using gamification.
+                            Finally, I wrote my research document with an introduction, explanation of how I did the
+                            research, what I found, and recommendations. I made sure to communicate everything clearly
+                            and simply.
+                            <br /><br />
+                            In this research document, I used two methods from the CMD Methods Pack: literature study
+                            and trend analysis. Through the literature study, I researched and analyzed existing
+                            information to gain valuable insights. Additionally, I conducted trend analysis to examine
+                            industry trends and patterns relevant to my project. By combining these methods, I gathered
+                            information, gained insights, and made informed decisions to enhance my project.
 
                         </p>
                     </div>

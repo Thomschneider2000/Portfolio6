@@ -25,59 +25,9 @@
         </div>
         <h1><strong>Reading Guide</strong></h1>
         <div class="row leeswijzer">
-          <div class="col-md-12 px-0">
-            <!-- individual project -->
-            <h3 id="individual">CMD-Methods</h3>
-            <h5>Explanation</h5>
-            <p>CMD methods refer to the methodologies and approaches used in the field of Communication and Multimedia
-              Design. CMD focuses on studying and designing communication and interaction in digital media environments.
-              CMD methods are designed to help researchers and designers understand user behavior, evaluate user
-              experiences, and develop effective communication strategies.</p>
-          </div>
-          <div class="l-cmd-icons col-md-1 pl-0 pr-4">
-            <img class="c-cmd-icons" src="../assets/logo-library.png" />
-          </div>
-          <div class="col-md-11 pr-0 pl-4">
-            <p>Library research: gathering knowledge through existing literature and resources for a specific topic or
-              subject.</p>
-          </div>
-          <div class="l-cmd-icons col-md-1 pl-0 pr-4">
-            <img class="c-cmd-icons" src="../assets/logo-field.png" />
-          </div>
-          <div class="col-md-11 pr-0 pl-4">
-            <p>Field research: collecting data in real-world settings to observe behavior, conduct interviews, and gain
-              contextual insights.</p>
-          </div>
-          <div class="l-cmd-icons col-md-1 pl-0 pr-4">
-            <img class="c-cmd-icons" src="../assets/logo-showroom.png" />
-          </div>
-          <div class="col-md-11 pr-0 pl-4">
-            <p>Showroom research: inviting participants to a designed space to present and evaluate new concepts,
-              products, or services.</p>
-          </div>
-          <div class="l-cmd-icons col-md-1 pl-0 pr-4">
-            <img class="c-cmd-icons" src="../assets/logo-lab.png" />
-          </div>
-          <div class="col-md-11 pr-0 pl-4">
-            <p>Lab research: conducting experiments and tests in a controlled laboratory environment to study behaviors
-              and interactions.</p>
-          </div>
-          <div class="l-cmd-icons col-md-1 pl-0 pr-4">
-            <img class="c-cmd-icons" src="../assets/logo-workshop.png" />
-          </div>
-          <div class="col-md-11 pr-0 pl-4">
-            <p>Workshop research: interactive sessions where participants collaborate to generate ideas and solve
-              problems collectively.</p>
-          </div>
-          <div class="l-cmd-icons col-md-1 pl-0 pr-4">
-            <img class="c-cmd-icons" src="../assets/logo-stepping-stones.png" />
-          </div>
-          <div class="col-md-11 pr-0 pl-4">
-            <p>Stepping stones research: iterative method to gradually build knowledge and improve concepts.</p>
-          </div>
           <div class="col-md-7 pl-0 pr-4">
             <!-- individual project -->
-            <h3 class="c-spacer" id="individual">Individual Project</h3>
+            <h3 id="individual">Individual Project</h3>
             <h5>Assignment</h5>
             <p>For this assignment, I aim to create a new portfolio that builds upon the foundation of my previous
               portfolio. Drawing inspiration from my previous work, I seek to optimize and improve the design,
@@ -86,103 +36,94 @@
               refined visual aesthetics to showcase my skills and accomplishments effectively.</p>
             <h5>Process & Results</h5>
             <p>
-              For my individual project, I have embarked on creating a new portfolio. Since my old portfolio was already
-              quite good, I decided to improve it in every aspect. Therefore, I began by creating a <a class="c-link"
-                target="_blank" href="projectplanportfolio_iteratie.php">projectplan</a> and researching the areas where
-              I
-              could enhance the user experience (UX), as documented in my <a href="uxresearch_iteratie.php"
-                target="_blank">UX research</a>. From my research, I can
-              conclude that the navigation can be significantly simplified, requiring fewer clicks for the user.
-              Additionally, the organization of the projects was somewhat unclear, making it necessary for users to
-              search more extensively.
-
-              Based on these findings, I started creating a <a href="portfolio_iteratie.php" target="_blank">new
-                design</a> to facilitate
-              easier navigation on my portfolio.
-              On the project page, I opted to assign a category to each project, allowing users to filter based on their
-              specific search criteria.
-              <br />
-            <p>During the design process, I encountered several issues. Initially, I wanted to create three cards to
-              navigate to different ongoing projects. However, I also had the reader's guide that needed to be placed
-              somewhere. That's why I decided to separate the reader's guide since it didn't fit well among the
-              projects. Not entirely satisfied with my current design, I opted for a much simpler approach.
-
-              Once I was content with the design, I started working on the project page. This page will display all my
-              products, each with a filter tag. The filter tag allows users to filter the products based on their
-              preferences.</p>
+              For this project, I created several PoCs. I started by creating a <a class="c-link" target="_blank"
+                href="projectplanportfolio_iteratie.php">project plan</a> for my portfolio to get a
+              clear idea of what I wanted to accomplish and how I was going to go about it. Then I did <a class="c-link"
+                target="_blank" href="uxresearch_iteratie.php">research on UI/UX</a>
+              to improve my old portfolio. I looked at what could be improved and what trends were currently going on.
             </p>
-            <p>
-              Before starting my project, I created a <a href="https://github.com/Thomschneider2000/Portfolio6"
-                target="_blank">Git repository</a> to store all my work. Once I had completed my
-              design, I began setting up a Laravel project. To make my website modular, I will be using HTML, SCSS, CSS,
-              PHP, and JavaScript. I want to make my website modular so that code blocks don't need to be repeated, and
-              making changes becomes easier as they only need to be made in one place.
+            <p>Then I designed a completely new layout for my portfolio. The first design did not meet my expectations,
+              so I decided to create a <a class="c-link" target="_blank" href="portfolio_iteratie.php">new design</a>.
+              In the end, I chose
+              this new design because it was more
+              user-friendly, especially with the addition of a sidebar.
             </p>
-            <p>
-              While creating my new portfolio website, I didn't encounter any major issues. The only thing that was a
-              bit challenging was implementing the filter for the different projects. However, after doing some
-              research, I was able to figure it out quickly. After some time, I finished building my website and only
-              needed to add the content to it.
+            <p> After the design was ready, I started <a class="c-link" target="_blank"
+                href="frontendportfolio_iteratie.php">coding my portfolio</a>.
+              To do this, I used HTML, SCSS, PHP and
+              JavaScript. To keep my code efficient, I divided the website into different layouts that I could manage
+              dynamically with PHP. This provided better organization and maintenance of my code.
+            </p>
+            <p> I was also involved as a stakeholder in the <a class="c-link" target="_blank"
+                href="leadership_iteratie.php">Smartmobile
+                group</a>, which participated in the development of the PSV app. Together we brainstormed new features
+              that we could implement.</p>
             </p>
             <h5>Reflection</h5>
             <p>During this assignment, I faced a challenge in selecting a final design for my new portfolio. Being quite
               particular about my preferences, I found it hard to make a decision. The abundance of design choices made
               it difficult to settle on one. However, this experience taught me the importance of finding a balance
               between my high standards and practicality to create a visually pleasing and functional portfolio.</p>
+            <p>
+              As a stakeholder in the Smartmobile group, it was a valuable experience to be involved in the development
+              process of the PSV app. It was inspiring to collaborate with other team members and share insights. By
+              listening to the ideas and perspectives of others, I gained new insights and broadened my understanding of
+              the project. It was enriching to see how different points of view contributed to the development of
+              innovative features and solutions. It was a fine and educational experience to be involved in the project
+              as a stakeholder.
+            </p>
           </div>
           <div class="col-md-5 pl-4 pr-0">
-            <a href="https://imgur.com/QhiZXNj"><img class="c-spacer" src="https://i.imgur.com/QhiZXNj.png"
+            <a href="https://imgur.com/QhiZXNj"><img src="https://i.imgur.com/QhiZXNj.png"
                 title="source: imgur.com" /></a>
           </div>
           <div class="col-md-7 pl-0 pr-4">
             <!-- group project -->
             <h3 class="c-spacer" id="group">Group Project</h3>
             <h5>Assignment</h5>
-            <p> For our group project, we received a task from PSV to come up with an innovative way to engage
-              supporters
-              more with the match experience at the stadium. The assignment we received is quite broad, which is
-              actually nice.</p>
+            <p>For our group project, we received a task from PSV to come up with an innovative way to engage supporters more with the match experience at the stadium. The assignment we received is quite broad, which is actually nice.</p>
             <h5>Process & Results</h5>
             <p>
-              After some brainstorming, we had the idea to create an app. However, since a previous group
-              had already done something similar, we wanted to take on their project and improve it.
+              Before starting our project, we took the important step of creating a <a class="c-link" target="_blank"
+                href="projectplanpsv_iteratie.php">project plan</a>. This plan helped us
+              outline the goals, timeline, and deliverables for our app development. We used various techniques like
+              <a class="c-link" target="_blank" href="https://i.imgur.com/ALruTCB.png">personas</a>, <a class="c-link" target="_blank" href="projectplanpsv_iteratie.php">user
+                stories</a>, and <a class="c-link" target="_blank" href="https://i.imgur.com/zbi6iA9.png">user journey mapping</a> to understand the
+              needs of our target users. This
+              user-centric approach ensured that our app would meet the expectations and requirements of our audience.
+              using the persona, I did a study on psv's <a class="c-link" target="_blank" href="research-targetgroup_iteratie.php">target audience</a>
+              and how to make sure we can apply gamification to this.
 
-              In the app, users can place virtual bets to earn points. Currently, these points have no purpose. Our plan
-              is to incorporate more gamification elements so that users can collect and spend these points. By using a
-              more visual approach to betting, we aim to attract users and make the games more enjoyable.
-            </p>
-            <p>
-              For our project we utilized <a class="c-link" href="https://i.imgur.com/ALruTCB.png">persona's</a>, <a
-                class="c-link" href="https://i.imgur.com/ALruTCB.png">user stories</a> and <a class="c-link"
-                href="https://i.imgur.com/zbi6iA9.png">user journey</a> mapping techniques to understand user needs.
-              User stories captured specific features from the user's perspective, guiding development priorities. User
-              journey mapping visualized the user's experience, highlighting pain points and areas for improvement.
-              These approaches ensured a user-centric development process.
-            </p>
-            <p>
-              After establishing the persona's and user journey, we began drafting a list of specifications that would
-              serve as a
-              guideline for the development of our app. These <a href="#">requirements</a> encompassed the key
-              functionalities and
-              features we wanted to incorporate into our app. By formulating these requirements, we were able to gain a
-              clear understanding of what was necessary to create a successful and functional app.
-
-              With the requirement list in mind, we proceeded to design the various betting options within the app. Our
-              focus was on creating appealing and intuitive designs that would engage users and enable them to easily
-              and enjoyably participate in bets.
-
-              Throughout the design process, we took into consideration various aspects such as user-friendliness,
-              visual appeal, and navigational ease.
+              With the project plan in place, we then focused on specifying the <a class="c-link" target="_blank"
+                href="projectplanpsv_iteratie.php">key functionalities</a> and features for our
+              app. This helped us establish a clear direction for development and ensured that we stayed focused on
+              creating a successful and functional app. We paid special attention to <a class="c-link" target="_blank"
+                href="frontend_iteratie.php">designing the different betting
+                options</a> within the app, aiming for appealing and user-friendly interfaces. Our goal was to engage
+              users
+              and provide them with a seamless and enjoyable betting experience.
             </p>
             <p>
               After this stage of the project, I started working on implementing our design. To begin with, I set up a
-              <a href="">git repository</a> and created multiple branches so that my team can collaborate without
+              <a class="c-link" target="_blank" href="https://github.com/Thomschneider2000/Psv-project">git
+                repository</a> and created multiple branches so that my team can collaborate without
               encountering conflicts. Once the team members have pushed their changes to their respective branches, they
-              can request to push their modifications to the main branch, which I need to approve.
+              can request to push their modifications to the main branch, which I need to approve. After this, I created
+              a <a class="c-link" target="_blank" href="c4_iteratie.php">c4 model</a> with my group to see what the infrastructure of
+              the app will look like.
 
-              Furthermore, for the app, we wanted to create a web app concept, so we developed it using HTML, SCSS, and
+              Furthermore, for the app, we wanted to create a <a class="c-link" target="_blank" href="frontend_iteratie.php">web app</a>
+              concept, so I developed a part of it using HTML,
+              SCSS, and
               JavaScript. We also ensured code optimization by including various layouts, eliminating the need to repeat
               them for each page.
+            </p>
+            <p>
+              For the web app I also created an <a class="c-link" target="_blank" href="levelsystem_iteratie.php">xp progress system</a> so you
+              can see how the user progressed in our app.
+              After completing the web app, we had our <a class="c-link" target="_blank" href="testingdoc_iteratie.php">stakeholder test a feature</a>. We incorporated his feedback and made
+              improvements. Then, we prepared an <a class="c-link" target="_blank" href="advicereport_iteratie.php">advice document</a> to guide our stakeholder in further developing our
+              idea. Finally, we conducted a <a class="c-link" target="_blank" href="peerreview_iteratie.php">peer review</a> within our group to learn about our strengths and weaknesses.
             </p>
             <h5>Reflection</h5>
             <p>During the development of the app using HTML, CSS, JavaScript, and PHP, I found the process to be
@@ -215,10 +156,11 @@
               To start off, we conducted research to explore innovative ideas for our project. This led us to the
               concept of creating a tag game where users navigate from point A to point B. By collecting points through
               back-and-forth movement, players can climb the leaderboard. Before diving into the project, we thoroughly
-              <a href="#">researched different tags</a> that users can employ. Additionally, I created a <a
-                href="#">comparison table</a> to determine the most suitable tag for our specific needs.
+              <a href="researchtags_iteratie.php">researched different tags</a> that users can employ. Additionally, I created a <a
+                href="researchtags_iteratie.php">comparison table</a> to determine the most suitable tag for our specific needs.
             </p>
-            <p>In addition, I took on the task of creating <a href="video_iteratie.php">a logo</a> for our concept,
+            <p>In addition, I took on the task of creating <a target="_blank" class="c-link" href="video_iteratie.php">a
+                logo</a> for our concept,
               which we later incorporated into our project. Furthermore, I played a significant role in producing the
               video presentation for the participants of the international week. These contributions allowed me to
               showcase my creativity and actively engage with the project's visual elements, enhancing the overall
@@ -234,12 +176,26 @@
             <a href="https://imgur.com/LEtFzl5"><img class="c-spacer" src="https://i.imgur.com/IsFwHS9.png"
                 title="source: imgur.com" /></a>
           </div>
+          <div class="col-md-7 pl-0 pr-4">
+            <!-- semester reflection -->
+            <h3 class="c-spacer" id="international">Semester Reflection</h3>
+              <h5>communication</h5>
+              <p>Throughout the semester, communication played a pivotal role in our group's success. We fostered a culture of open and effective communication, which greatly contributed to our collaborative efforts. Regular team meetings, clear and concise messages, and active listening ensured that everyone was on the same page. We encouraged ideas and opinions, allowing for fruitful discussions and problem-solving. This strong communication foundation facilitated smooth coordination, minimized misunderstandings, and maximized productivity, making our semester a cohesive and rewarding experience.</p>
+              <h5>Self improvement</h5>
+              <p>In reflecting on my own performance, I acknowledge that one area for improvement lies in consistently adhering to the planned schedule. At times, I found it challenging to stay on track with the established timelines and deadlines. To address this, I aim to enhance my time management skills by prioritizing tasks, breaking them down into manageable steps, and setting realistic deadlines. By actively monitoring my progress and making necessary adjustments, I can ensure greater adherence to the schedule and achieve more efficient and effective results in future endeavors. But overall I think i did a pretty good job this semester</p>
+              <h5>Next Semester</h5>
+              <p>Next semester, I want to improve myself even more. I will be taking a minor called "Ed-Tech" which focuses on using technology for education. I want to learn new things and become better than before. This program will help me understand how technology can be used in teaching and learning. I am excited to explore new ideas and find innovative ways to make education more engaging and effective. By doing this, I hope to become even better at what I do and make a positive difference in education.</p>
+            </div>
+          <div class="col-md-5 pl-4 pr-0">
+            <a href="https://imgur.com/SEaSO0W"><img class="c-spacer" src="https://i.imgur.com/G6GQ3H9.jpg"
+                title="source: imgur.com" /></a>
+          </div>
           <div class="c-arrow-link">
-            <a href="../assets/pdf/ux-onderzoek-portfolio.pdf" target="_blank" class="c-link button arrow">Reading guide
+            <a href="../assets/pdf/Porfolio.pdf" target="_blank" class="c-link button arrow">Reading guide
               pdf</a><i class="fa-solid fa-arrow-right"></i>
           </div>
           <div class="col-md-12 pl-0 pr-4">
-            <!-- international project -->
+            <!-- table -->
             <h3 class="c-spacer" id="">Table of POC</h3>
             <p>
               In the table below, you will find all the products I have created this semester, organized according to
@@ -253,32 +209,43 @@
 
               <tr>
                 <td>Learning outcome 1: User interaction (analysis & advice)</td>
-                <td><a href="">Test</a></td>
+                <td><a href="uxresearch_iteratie.php" target="_blank">UX research</a> / <a
+                    href="research-targetgroup_iteratie.php" target="_blank">Research Target Group</a> / <a
+                    href="researchtags_iteratie.php" target="_blank">Research Tags</a> / <a href="video_iteratie.php" target="_blank">Logo Design & Poster</a> / <a href="https://i.imgur.com/ALruTCB.png" target="_blank">Persona</a> / <a href="projectplanpsv_iteratie.php" target="_blank">User Stories</a> / <a href="https://i.imgur.com/zbi6iA9.png" target="_blank">User Journey</a></td>
               </tr>
 
               <tr>
                 <td>Learning outcome 2: User interaction (execution & validation)</td>
-                <td><a href="">Test</a></td>
+                <td><a href="testingdoc_iteratie.php" target="_blank">Testing PSV App</a> / <a href="advicereport_iteratie.php" target="_blank">Advice Report</a> / <a href="portfolio_iteratie.php" target="_blank">Portfolio iterations</a></td>
               </tr>
               <tr>
                 <td>Learning outcome 3: Software design</td>
-                <td><a href="">Test</a></td>
+                <td><a href="frontendportfolio_iteratie.php" target="_blank">Portfolio Front-end</a> / <a
+                    href="frontend_iteratie.php" target="_blank">PSV Front-end</a> / <a href="c4_iteratie.php"
+                    target="_blank">C4-Model</a> / <a href="levelsystem_iteratie.php" target="_blank">Level system</a>
+                </td>
               </tr>
               <tr>
                 <td>Learning outcome 4: Future-oriented organisation</td>
-                <td><a href="">Test</a></td>
+                <td><a href="projectplanpsv_iteratie.php" target="_blank">Projectplan PSV</a> / <a
+                    href="projectplanportfolio_iteratie.php" target="_blank">Projectplan Portfolio</a> / <a
+                    href="https://github.com/Thomschneider2000/Psv-project" target="_blank">Git</a> / <a
+                    href="https://trello.com/b/ogvDSdI1/advanced-media-psv" target="_blank">Trello</a></td>
               </tr>
               <tr>
                 <td>Learning outcome 5: Investigative problem solving</td>
-                <td><a href="">Test</a></td>
+                <td><a href="uxresearch_iteratie.php" target="_blank">UX research</a> / <a
+                    href="research-targetgroup_iteratie.php" target="_blank">Research Target Group</a> / <a
+                    href="researchtags_iteratie.php" target="_blank">Research Tags</a></td>
               </tr>
               <tr>
                 <td>Learning outcome 6: Personal leadership </td>
-                <td><a href="">Test</a></td>
+                <td><a href="peerreview_iteratie.php" target="_blank">Peer review</a> / <a href="leadership_iteratie.php" target="_blank">Leadership Smartmobile</a></td>
               </tr>
               <tr>
                 <td>Learning outcome 7: Goal-oriented interaction </td>
-                <td><a href="">Test</a></td>
+                <td><a href="projectplanpsv_iteratie.php" target="_blank">Projectplan PSV</a> / <a
+                    href="projectplanportfolio_iteratie.php" target="_blank">Projectplan Portfolio</a> / <a href="advicereport_iteratie.php" target="_blank">Advice Report</a> / <a href="video_iteratie.php" target="_blank">Logo Design & Poster</a></td>
               </tr>
             </table>
           </div>

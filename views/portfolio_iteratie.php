@@ -19,9 +19,7 @@
                 <div class="l-cmd">
                     <div class="row">
                         <h5>Cmd Methods:</h5>
-                        <img class="c-cmd" src="../assets/logo-showroom.png" />
-                        <img class="c-cmd" src="../assets/logo-library.png" />
-                        <img class="c-cmd" src="../assets/logo-lab.png" />
+                        <img class="c-cmd" src="../assets/logo-workshop.png" />
                     </div>
                 </div>
                 <div class="row">
@@ -39,8 +37,8 @@
                 <div class="row">
                     <div class="col-6 px-0 pr-4">
                         <h2>Process</h2>
-                        <p>The process of developing my personal portfolio involved <a class="c-link" href="">multiple
-                                iterations</a> to ensure its optimal presentation. Each iteration involved a series of
+                        <p>The process of developing my personal portfolio involved multiple
+                                iterations to ensure its optimal presentation. Each iteration involved a series of
                             steps, including planning, designing, implementing, and evaluating. Throughout this process,
                             I made several design choices based on their effectiveness in enhancing the portfolio's
                             overall appeal and user experience.
@@ -54,11 +52,12 @@
                             In terms of typography, I chose fonts that were legible and reflected the overall tone and
                             style of my portfolio. By using a combination of serif and sans-serif fonts, I aimed to
                             create a visually appealing hierarchy and enhance readability.
+                            <br /><br />
+                            In order to create my new portfolio design, I used CMD methods. I started with ideation, where I gathered inspiration and generated creative ideas to explore various design possibilities. Once I had a clear vision, I moved on to prototyping, creating a preliminary version of the portfolio. This allowed me to test different layouts, features, and user experiences. Through this iterative process, I refined the design until achieving a visually appealing and user-friendly portfolio. The CMD methods played a crucial role in the successful creation of my portfolio.
                         </p>
                     </div>
                     <div class="col-6 px-0 pl-4">
-                        <a href="https://imgur.com/qAUf8ns"><img src="https://i.imgur.com/qAUf8ns.png"
-                                title="source: imgur.com" /></a>
+                    <a href="https://imgur.com/2x95gUr"><img src="https://i.imgur.com/2x95gUr.png" title="source: imgur.com" /></a>
                     </div>
                 </div>
                 <div class="row">
@@ -87,8 +86,7 @@
                     </div>
                 </div>
                 <div class="c-arrow-link">
-                    <a href="../assets/pdf/ux-onderzoek-portfolio.pdf" target="_blank" class="c-link button arrow">Read
-                        Document</a><i class="fa-solid fa-arrow-right"></i>
+                    <a href="https://xd.adobe.com/view/69df603e-3de3-4aca-b1a9-42011e174b81-3c8c/" target="_blank" class="c-link button arrow">Adobe XD File</a><i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>

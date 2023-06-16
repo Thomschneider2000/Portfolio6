@@ -65,8 +65,7 @@
                         </p>
                     </div>
                     <div class="col-6 px-0 pl-4">
-                        <a href="https://imgur.com/ZfkcctH"><img src="https://i.imgur.com/ZfkcctH.png"
-                                title="source: imgur.com" /></a>
+                    <a href="https://imgur.com/9PASHwL"><img src="https://i.imgur.com/9PASHwL.jpg" title="source: imgur.com" /></a>
                     </div>
                 </div>
                 <div class="row">
@@ -94,10 +93,6 @@
                             and gathering feedback from stakeholders and users to identify areas of improvement and
                             lessons learned.</p>
                     </div>
-                </div>
-                <div class="c-arrow-link">
-                    <a href="../assets/pdf/ux-onderzoek-portfolio.pdf" target="_blank" class="c-link button arrow">Read
-                        Document</a><i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>

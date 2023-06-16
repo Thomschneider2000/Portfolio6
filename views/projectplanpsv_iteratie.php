@@ -19,9 +19,7 @@
                 <div class="l-cmd">
                     <div class="row">
                         <h5>Cmd Methods:</h5>
-                        <img class="c-cmd" src="../assets/logo-field.png" />
-                        <img class="c-cmd" src="../assets/logo-library.png" />
-                        <img class="c-cmd" src="../assets/logo-workshop.png" />
+                        <img class="c-cmd" src="../assets/logo-stepping-stones.png" />
                     </div>
                 </div>
                 <div class="row">
@@ -42,24 +40,31 @@
                     <div class="col-6 px-0 pr-4">
                         <h2>Process</h2>
                         <p>
-                            Our collaborative process for creating a project plan for the PSV project begins with a deep
-                            understanding of the project's objectives and scope. We then delve into extensive research,
-                            exploring the latest fan engagement techniques. Through productive brainstorming sessions,
-                            we generate innovative ideas that are carefully evaluated for feasibility and potential
-                            impact. Building upon this, we meticulously develop a comprehensive plan, meticulously
-                            defining timelines, tasks, and responsibilities. Throughout the process, we actively seek
-                            and incorporate regular stakeholder feedback, ensuring the plan is refined and optimized.
-                            Finally, we present the well-crafted project plan for approval, incorporating all the
-                            valuable insights gained along the way.
+                            Our collaborative process for creating a project plan for the PSV project began with a
+                            thorough understanding of the project's objectives and scope. We conducted extensive
+                            research, exploring the latest fan engagement techniques. Through productive brainstorming
+                            sessions, we generated innovative ideas that were carefully evaluated for feasibility and
+                            potential impact. Building upon this, we meticulously developed a comprehensive plan,
+                            defining timelines, tasks, and responsibilities in detail. Throughout the process, we
+                            actively sought and incorporated regular stakeholder feedback, refining and optimizing the
+                            plan. Finally, we presented the well-crafted project plan for approval, incorporating all
+                            the valuable insights gained along the way.
                             <br /><br />
-                            We also created user stories for our project to capture the needs and expectations of our
-                            users. These stories will guide our development process and ensure that we deliver a product
-                            that meets their requirements.
+                            In addition, we created user stories for our project to capture the needs and expectations
+                            of our users. These stories guided our development process, ensuring that we delivered a
+                            product that met their requirements. I also took the initiative to create a <a class="c-link" href="https://trello.com/b/ogvDSdI1/advanced-media-psv">Trello board</a> and
+                            diligently served as the Scrum Master, ensuring its continuous updates.
+                            <br /><br />
+                            I used the CMD Methods Pack, specifically the requirement list. I used this method to
+                            outline all the needs and specifications of my project. I identified the features,
+                            performance criteria, and other important elements required to successfully complete the
+                            project. By using the requirement list, I had a clear overview of what was necessary and
+                            could steer my development process more efficiently. It helped me understand the project
+                            goals and ensure that the project met all the set requirements.
                         </p>
                     </div>
                     <div class="col-6 px-0 pl-4">
-                        <a href="https://imgur.com/bzD4F8Q"><img src="https://i.imgur.com/bzD4F8Q.png"
-                                title="source: imgur.com" /></a>
+                    <a href="https://imgur.com/Y3aWcnU"><img src="https://i.imgur.com/Y3aWcnU.png" title="source: imgur.com" /></a>
                     </div>
                 </div>
                 <div class="row">

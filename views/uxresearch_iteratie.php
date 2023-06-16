@@ -56,6 +56,15 @@
                                 href="https://www.awwwards.com/">awwwards.com</a>. By incorporating these design
                             principles, I aimed to create an engaging and visually cohesive interface that would
                             captivate the attention of visitors.
+                            <br /><br />
+                            For this part of the project, I conducted a thorough literature study using online
+                            sources. I searched the internet extensively to find relevant information from various
+                            search engines. Additionally, I compared my project to existing examples and standards using
+                            the benchmark creation method from CMD Methods Pack. This provided me with valuable insights
+                            and enhanced the outcomes of my project. Moreover, I conducted interviews to gather
+                            important information and gain a deeper understanding of my subject. Those interviews
+                            enriched my project and contributed to a comprehensive analysis. Overall, these methods
+                            greatly enhanced the quality of my work.
 
 
 

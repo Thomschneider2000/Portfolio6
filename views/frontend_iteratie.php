@@ -15,11 +15,10 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h1><strong>Front end dev app</strong></h1>
+                <h1><strong>Front-end dev app</strong></h1>
                 <div class="l-cmd">
                     <div class="row">
                         <h5>Cmd Methods:</h5>
-                        <img class="c-cmd" src="../assets/logo-field.png" />
                         <img class="c-cmd" src="../assets/logo-lab.png" />
                         <img class="c-cmd" src="../assets/logo-workshop.png" />
                     </div>
@@ -60,6 +59,10 @@
                             such as activating specific buttons based on user interactions and triggering engaging
                             animations. These additions not only elevated the overall interactivity of the application
                             but also enhanced its visual appeal.
+                            <br /><br />
+                            I applied the CMD methods such as prototyping and proof of concept to create the PSV web app
+                            using. Simultaneously, I conducted A/B testing with a few members of my project group to
+                            gather insights and enhance the app's performance.
 
                         </p>
                     </div>
@@ -96,8 +99,8 @@
                     </div>
                 </div>
                 <div class="c-arrow-link">
-                    <a href="../assets/pdf/ux-onderzoek-portfolio.pdf" target="_blank" class="c-link button arrow">Read
-                        Document</a><i class="fa-solid fa-arrow-right"></i>
+                    <a href="https://github.com/Thomschneider2000/Psv-project" target="_blank"
+                        class="c-link button arrow">Git repository</a><i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>

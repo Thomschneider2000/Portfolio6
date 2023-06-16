@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h1><strong>Logo Design & Video</strong></h1>
+                <h1><strong>Logo Design & Poster</strong></h1>
                 <div class="l-cmd">
                     <div class="row">
                         <h5>Cmd Methods:</h5>
@@ -41,23 +41,13 @@
                 <div class="row">
                     <div class="col-6 px-0 pr-4">
                         <h2>Process</h2>
-                        <p>The process of creating the logo and contributing to the project's video content for the
-                            international project involved several steps.
-
-                            For the logo, I began by researching the project's theme, objectives, and target audience.
-                            With a clear understanding, I brainstormed ideas and sketched out different concepts.
-                            Refining the chosen concept, I then proceeded to digitize and finalize the logo design,
-                            paying attention to color selection, typography, and overall visual appeal.
+                        <p>In the process of creating the logo and contributing to the project's video content for the international project, several steps were involved. For the logo, I conducted thorough research on the project's theme, objectives, and target audience. With a clear understanding, I generated ideas and sketched various concepts. After selecting the most promising concept, I digitized and finalized the logo design, paying attention to color choice, typography, and overall visual appeal.
                             <br /><br />
-                            In parallel, for the project's video content, I collaborated with the team to develop a
-                            creative brief and storyboard. We identified key messages and visuals to effectively
-                            communicate the project's purpose and impact. Filming and editing were carried out,
-                            incorporating engaging visuals, compelling storytelling, and captivating music or narration.
+                            Simultaneously, I collaborated with my team to develop a creative brief and storyboard for the project's video content. We identified key messages and visuals to effectively convey the project's purpose and impact. Filming and editing took place, incorporating engaging visuals, compelling storytelling, and captivating music or narration.
                             <br /><br />
-                            Throughout the process, feedback and revisions were sought from stakeholders to ensure
-                            alignment with the project's vision and goals. The final deliverables, both the logo and
-                            video content, were produced, ready to create a strong brand presence and promote the
-                            international project to a global audience.
+                            In addition to the logo and video content, our group collaborated on creating a visually engaging poster for the international project. We took it a step further by featuring personalized avatars of each team member on the poster. By incorporating our avatars, we added a touch of personality and a sense of unity to the visual representation of the project. 
+                            <br /><br />
+                            As part of our international project, I applied CMD methods to ensure its success. Firstly, I conducted a pitch session to present and gather feedback on the video concept. To validate the functionality and performance of our project, I conducted field trials, seeking validation from real-world scenarios. Moreover, I employed the concept method to explore innovative ideas and refine our project's design and features. By combining these CMD methods, we were able to enhance the project's effectiveness and create a more impactful final outcome.
 
                         </p>
                     </div>
@@ -93,8 +83,7 @@
                     </div>
                 </div>
                 <div class="c-arrow-link">
-                    <a href="../assets/pdf/ux-onderzoek-portfolio.pdf" target="_blank" class="c-link button arrow">Read
-                        Document</a><i class="fa-solid fa-arrow-right"></i>
+                    <a href="https://i.imgur.com/dWRd3rN.jpg" target="_blank" class="c-link button arrow">Show poster</a><i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>

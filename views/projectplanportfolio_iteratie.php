@@ -41,20 +41,24 @@
                     <div class="col-6 px-0 pr-4">
                         <h2>Process</h2>
                         <p>
-                            In creating a project plan for my portfolio project to optimize my old portfolio, I will
-                            follow these steps. First, I will conduct a thorough assessment of my current portfolio,
-                            analyzing its strengths and weaknesses.
+                            In creating a project plan for my portfolio project to optimize my old portfolio, I followed
+                            these steps. First, I conducted a thorough assessment of my current portfolio, analyzing its
+                            strengths and weaknesses. Next, I defined clear objectives for the project, outlining the
+                            specific improvements I wanted to make. Then, I researched best practices and industry
+                            trends to gather inspiration and insights. Based on this research, I developed a detailed
+                            plan that included tasks, timelines, and resources needed. Regular evaluation and feedback
+                            ensured the successful optimization of my portfolio.
                             <br /><br />
-                            Next, I will define clear objectives for the project, outlining the specific improvements I
-                            want to make. I will then research best practices and industry trends to gather inspiration
-                            and insights. Based on this research, I will develop a detailed plan that includes tasks,
-                            timelines, and resources needed. Regular evaluation and feedback will ensure the successful
-                            optimization of my portfolio.
+                            I used two methods from the CMD Methods Pack, benchmark creation and
+                            requirement list. With benchmark creation, I compared my project to other examples and
+                            standards to see how it performed. This provided me with valuable insights and ideas for
+                            improvement. Additionally, I used the requirement list to clarify all the necessary
+                            specifications and requirements for my project. This helped me understand exactly what I
+                            needed and enabled me to successfully complete my project.
                         </p>
                     </div>
                     <div class="col-6 px-0 pl-4">
-                        <a href="https://imgur.com/OpPB3T4"><img src="https://i.imgur.com/OpPB3T4.jpg"
-                                title="source: imgur.com" /></a>
+                    <a href="https://imgur.com/546q3Oe"><img src="https://i.imgur.com/546q3Oe.png" title="source: imgur.com" /></a>
                     </div>
                 </div>
                 <div class="row">
@@ -84,7 +88,7 @@
                     </div>
                 </div>
                 <div class="c-arrow-link">
-                    <a href="../assets/pdf/ux-onderzoek-portfolio.pdf" target="_blank" class="c-link button arrow">Read
+                    <a href="../assets/pdf/Project plan portfolio.pdf" target="_blank" class="c-link button arrow">Read
                         Document</a><i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
